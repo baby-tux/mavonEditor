@@ -32,6 +32,7 @@
   "tl_aligncenter": "Center le texte",
   "tl_alignleft": "Férer le texte à gauche",
   "tl_alignright": "Férer le texte à droite",
+  "tl_aligncleft": "Férer à gauche puis center le texte",
   "tl_preview": "Previsualisé",
   "tl_edit": "Editer",
   "tl_single_column": "Seule Colonne",

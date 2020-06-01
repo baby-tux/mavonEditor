@@ -77,6 +77,7 @@ markdown.use(emoji)
     .use(sub)
     .use(container)
     .use(container, 'hljs-left') /* align left */
+    .use(container, 'hljs-cleft')/* align center-left */
     .use(container, 'hljs-center')/* align center */
     .use(container, 'hljs-right')/* align right */
     .use(deflist)

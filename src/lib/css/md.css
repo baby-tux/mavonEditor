@@ -22,3 +22,8 @@
 .markdown-body .hljs-left {
     text-align: left;
 }
+.markdown-body .hljs-cleft {
+    text-align: left;
+    width: 20em;
+    margin: 0 auto;
+}

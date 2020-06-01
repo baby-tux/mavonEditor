@@ -32,6 +32,7 @@
   "tl_aligncenter": "Center text",
   "tl_alignleft": "Clamp text to the left",
   "tl_alignright": "Clamp text to the right",
+  "tl_aligncleft": "Center text, clamped to the left",
   "tl_edit": "Edit",
   "tl_single_column": "Single Column",
   "tl_double_column": "Double Columns",

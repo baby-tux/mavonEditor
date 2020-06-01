@@ -47,6 +47,10 @@
         <button :disabled="!editable" type="button" v-if="toolbars.alignright" @click="$clicks('alignright')"
                 class="op-icon fa fa-mavon-align-right"
                 aria-hidden="true" :title="`${d_words.tl_alignright} (ctrl+r)`"></button>
+        <button :disabled="!editable" type="button" @click="$clicks('aligncleft')"
+                class="op-icon fa fa-mavon-align-cleft"
+                aria-hidden="true" :title="`${d_words.tl_aligncleft} (ctrl+alt+shift+l)`">
+        </button>
         <span
                 v-if="toolbars.superscript || toolbars.subscript || toolbars.underline || toolbars.strikethrough || toolbars.mark"
                 class="op-icon-divider"></span>

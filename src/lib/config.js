@@ -68,6 +68,7 @@ export const CONFIG = {
         'alignleft': true,
         'aligncenter': true,
         'alignright': true,
+        'aligncleft': true,
         'navigation': true,
         'subfield': true,
         'fullscreen': true,

@@ -174,6 +174,11 @@ export const toolbar_left_click = (_type, $vm) => {
            prefix: '::: hljs-left\n\n',
            subfix: '\n\n:::\n',
            str: $vm.d_words.tl_alignleft
+         },
+         'aligncleft': {
+           prefix: '::: hljs-cleft\n\n',
+           subfix: '\n\n:::\n',
+           str: $vm.d_words.tl_aligncleft
          }
      };
      if (_param_of_insert_text.hasOwnProperty(_type)) {

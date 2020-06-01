@@ -76,6 +76,7 @@ markdown.use(mihe, hljs_opts)
     .use(sub)
     .use(container)
     .use(container, 'hljs-left') /* align left */
+    .use(container, 'hljs-cleft') /* align left-center */
     .use(container, 'hljs-center')/* align center */
     .use(container, 'hljs-right')/* align right */
     .use(deflist)

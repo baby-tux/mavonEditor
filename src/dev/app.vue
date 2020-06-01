@@ -153,6 +153,7 @@
                     alignleft: true, // 左对齐
                     aligncenter: true, // 居中
                     alignright: true, // 右对齐
+                    aligncleft: true,
                     /* 2.2.1 */
                     subfield: true, // 单双栏模式
                     preview: true, // 预览

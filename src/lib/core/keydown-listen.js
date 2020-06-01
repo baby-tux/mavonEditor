@@ -342,6 +342,16 @@ export const keydownListen = ($vm) => {
                     break;
                 }
             }
+        } else if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.altKey) {
+            // ctrl + alt + shift
+            switch (e.keyCode) {
+                case KEY_CODE.L: {
+                    // L
+                    e.preventDefault()
+                    $vm.toolbar_left_click('aligncleft')
+                    break;
+                }
+            }
         } else if (!(e.ctrlKey || e.metaKey) && e.shiftKey && !e.altKey) {
             // shift +
             switch (e.keyCode) {

@@ -191,6 +191,12 @@
       "css": "align-right",
       "code": 59409,
       "src": "fontawesome"
+    },
+    {
+      "uid": "a3f13abf118d3c6abe3e99a6c296a9a5",
+      "css": "align-cleft",
+      "code": 59410,
+      "src": "websymbols"
     }
   ]
 }
